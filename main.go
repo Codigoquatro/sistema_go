@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println(Ola("Chris!!"))
+	fmt.Println(Ola("Chris"))
 }
 
 func Ola(nome string) string {

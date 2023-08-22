@@ -3,8 +3,9 @@ package main
 import "testing"
 
 func Test_Ola(t *testing.T) {
-	resultado := Ola("Chris!!")
-	esperando := "Olá,Chris!!"
+	const ola = "Olá"
+	resultado := Ola("Chris")
+	esperando := ola + "," + "Chris"
 
 	if resultado != esperando {
 		t.Errorf("resultado '%s',esperando '%s'", resultado, esperando)
